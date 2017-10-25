@@ -1,0 +1,614 @@
+
+/*===================================Desctop============================================*/
+@media screen and (max-width: 939px) and (min-width: 600px) {
+    .header{
+         height: 39.5vw;
+    }
+    .top_background{
+        margin-top: 0;
+        height: 2vw;
+        color: #3bc0c3;
+        background-color: #3bc0c3;
+        width: 100%;
+        margin: auto;
+    }
+    .logo{ 
+        width: 90%;
+        margin: auto;
+        height: 5vw;
+        margin-top: 2vw;
+        margin-bottom: 1vw;
+    }
+    #logo_icon_part{
+        width: 5.5%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .logo_icon{
+        display: inline-block;
+        width: 4.5vw;
+    }
+    .logo_text_part{
+        width: 22%;
+        display: inline-block;
+        vertical-align: top;
+        white-space: nowrap;
+        font-size: 3.2vw;
+        text-align: left;
+        font-weight: bold;
+        color: #3bc0c3;
+    }
+    .cart_part{
+        display: block;
+        width: 26.1vw;
+        height: 4.5vw;
+        float: right;
+        white-space: nowrap;
+        list-style-type: none; 
+        position: relative;
+    }
+  
+    .cart{
+        display: inline-block;
+        background: #ffffff;
+        color: #314350;
+        border: 0.05vw solid #3bc0c3; 
+        height: 3.5vw;
+        font-size: 1.5vw;
+        background-image: url(../css/images/cart_icon.png); 
+        background-size: 2.5vw;
+        background-repeat: no-repeat;  
+        background-position: 0.4vw;  
+        border-radius: 0.5vw;
+        -moz-border-radius: 0.5vw;
+        -webkit-border-radius: 0.5vw; 
+        padding-left: 3.5vw;
+        width: 22.5vw;
+        position: absolute;
+        top: 0.5vw;
+    }
+    .cart_price{
+        display: inline-block;
+        background: #ffffff;
+        color: #314350;
+        border: 0;
+        height: 2vw;
+        font-size: 1.7vw;
+        margin-top: 1.2vw;
+        width: 8vw;
+        margin-left: 17vw;
+        font-weight: bold;
+        position: absolute;
+        top: 0.2vw;
+    }
+    .cart_icon{
+        display: none;
+    }
+    ul.cart_sub_part li.cart_drop_down{
+        position: relative;
+        top: 5vw;
+        list-style-type: none;
+        width: 30vw;
+        background: #ffffff;
+        z-index: 4;
+        display: none;
+        margin-left: -4vw;
+        border: 0.05vw solid #3bc0c3; 
+        border-radius: 0.5vw;
+        -moz-border-radius: 0.5vw;
+        -webkit-border-radius: 0.5vw; 
+    }
+    .cart_drop_down_items{
+        width: 26.6vw;
+        margin-left: 0.5vw;
+    }
+    .cart_drop_down_items td{
+    }
+    .cart_drop_down_item_img{
+        width: 25%;
+    }
+    .cart_drop_down_item_img img{
+        width: 5vw;
+    }
+    .cart_drop_down_item_data{
+        font-size: 1.5vw;
+        line-height: 1.2;
+    }
+    .cart_drop_down_item_data p.item_name{
+        font-weight: bold;
+    }
+
+    .cart_drop_down_delete_item img{
+        width: 2.5vw;
+        float:  right;
+    }
+
+    .go_to_checkout_button{
+        display: block; 
+        background: #3bc0c3;
+        color:#ffffff; 
+        font-size: 1vw;
+        font-weight: bold; 
+        border-radius: 0.5vw;
+        text-align: center;      
+        text-decoration: none; 
+        margin-bottom: 0.5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.6vw;
+        float: right;
+        margin: 1vw;
+    }
+    ul.cart_part:hover ul.cart_sub_part li.cart_drop_down{
+        display: block;
+    }
+    .cart_drop_down:hover{
+        display: block;
+    }
+    .cart_burger_part{
+        display: none;
+    }
+
+    /* For navigation menu*/
+    /* ========================================================= */
+    #menu_block{
+        height: 3.7vw;
+        background: #ffffff;
+    }
+    #navigation_menu{
+        width: 90%;
+        margin: auto;
+        background: #ffffff;
+        /*    background: red;*/
+        height: 6vw;
+    }
+    ul#navigation_menu, ul .submenu_1, ul .submenu_2{
+        list-style-type: none;  
+    }
+    ul#navigation_menu li{ 
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        background-color: #ffffff; 
+        border-radius: 0;  
+        font-size: 2.4vw;
+        font-weight: bold;
+        width: auto;
+        border-bottom: 0.7vw solid #ffffff; 
+        height: 3vw;
+        margin-bottom: 0;
+        z-index: 2;
+    }
+    ul#navigation_menu #li_2014{
+        padding-top: 1vw;
+        margin-top: 2vw
+    }
+    ul#navigation_menu #li_2011{
+        padding-bottom: 1vw
+    }
+    ul#navigation_menu #li_summer{
+        padding-top: 1vw;
+    }
+    ul#navigation_menu a{
+        font-size: 1vw;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+        color: #314350;
+        text-align: center;
+        margin-left: 1.4vw;
+        margin-right: 1.4vw;
+        margin-top: 1.2vw;
+    }
+    ul#navigation_menu li:hover{
+        background-color: #1c2b36; 
+        border-bottom: 0.7vw solid #3bc0c3;
+    }
+    ul#navigation_menu ul.submenu_1{
+        display: none;
+        position: absolute;
+        top: 4.5vw;
+        left: 0; 
+        height: 0;
+        width: 100%;
+    }
+    ul#navigation_menu .submenu_1 li{   
+        background-color: #edf1f2;  
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        top: -2.8vw;
+        border: 0;
+        height: 2vw;
+    }
+    ul#navigation_menu .submenu_1 a{
+        font-size: 1vw;
+        margin: 0;
+        width: 100%;
+        margin-left: 1.5vw;
+        text-align: left;
+        padding-top: 0.3vw;
+    }
+    ul#navigation_menu .submenu_2 li{
+        margin-left: 1vw;
+        background-color: #edf1f2;
+        vertical-align: middle;
+        padding: 0;
+        margin: 0;
+    }
+    ul#navigation_menu .submenu_2 a{
+        margin-left: 1.5vw;
+        font-size: 1vw;
+        vertical-align: middle;  
+    }
+    ul#navigation_menu ul.submenu_2{
+        display: none;
+        position: absolute;
+        top: 1.8vw;
+        left: 9.5vw;   
+        width: 100%;
+    }
+    ul#navigation_menu .sale {
+        border-bottom: 0.1vw solid #0f1922;
+        height: 3.7vw;
+        margin-bottom: 0;
+    }
+    ul#navigation_menu .sale a{
+        color: #f05050;
+        margin-bottom: 0;
+    }
+    ul#navigation_menu .sale:hover {
+        background-color: #1c2b36;
+        border-bottom: 0.7vw solid #3bc0c3;
+    }
+    ul#navigation_menu li:hover ul.submenu_1{
+        display: block;    
+    }
+    ul#navigation_menu li:hover a{
+        color: #ffffff; 
+        text-align: center;
+    }
+    ul#navigation_menu li:hover ul.submenu_1 a{
+        color: #314350;  
+        text-align: left;
+        margin-left: 1.5vw;
+    }
+    ul#navigation_menu .submenu_1 li:hover{
+        background-color: #b6c2c9;   
+        border-bottom: 0;
+        width: 100%;
+    }
+    ul#navigation_menu .submenu_1 li:hover .submenu_2{
+        display: block;
+    }
+    ul#navigation_menu .submenu_1 li:hover .submenu_2 a{
+        color: #314350;
+    }
+    ul#navigation_menu .submenu_1 .submenu_2 li:hover{
+        background-color: #b6c2c9;
+        border-bottom: 0;
+    }
+    #account_li{
+        float: right;
+    }
+    .right_arrow{
+        font-size: 0.8vw;
+        position: absolute;
+        top: 0.6vw;
+        right: 1.5vw;
+        color: #314350;   
+    }
+    .bottom_border{
+        background-color: #0f1922;
+        height: 0.7vw;
+        width: 90%;
+        position: relative;   
+        margin-top: -0.3vw;
+        z-index: 0;
+        margin: auto;    
+        border: 0;
+    }
+    /* Splash=======================================*/
+
+    #splash_block{
+        height: 20vw;
+        width: 90%;
+        margin: auto;
+        margin-top: 2vw;
+        border: 0;
+    }
+    .splash_image_backgound{
+        display: inline-block;
+        background: url('../css/images/splash_image.png') no-repeat;
+        background-size: 44vw;
+        min-width: 48%;
+        height: 100%;
+        vertical-align: top;
+        background-position-x: -1.2vw;
+        background-position-y: -1vw;           
+    }
+    .splash_text{
+        display: inline-block;
+        width: 41.7vw;
+        height: 5.5vw;
+        margin-top: 3.2vw;
+        margin-left: 0;    
+        background: #848484;
+        background: rgba(132,132,132,0.5);
+    }   
+    #splash_text_row_1{
+        color: #ffffff;
+        font-size: 2.3vw;
+        font-weight: bold;
+        padding-top: 0;
+        opacity: 1;
+    }
+    #splash_text_row_2{
+        color: #ffffff;
+        font-size: 1.15vw;
+        font-weight: bold;
+        padding-top:  0;
+        opacity: 1;
+    }
+    .right_text_part{
+        padding-left: 0;
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        height: 30%;
+    }
+    #text_1{
+        line-height: 0.9;
+        font-size: 3.8vw;
+        font-weight: bold;
+        letter-spacing: 0.3vw;
+        word-spacing: 0.2vw;
+    }
+    #text_2{
+        margin-top: 0.5vw;
+        line-height: 1.2;
+        font-size: 2.5vw;
+        font-weight: bold;
+        word-spacing: 0.08vw;
+        letter-spacing: 0.08vw;
+    }
+    #text_3{
+        margin-top: 0.7vw;
+        line-height: 1;
+        font-size: 1.7vw;
+        font-weight: bold;
+        text-align: justify;
+        word-spacing: 0.08vw;
+        letter-spacing: 0.08vw;
+    }
+    #text_3_m{
+        height: 0;
+        display: none;
+    }
+
+    /*strike line=========================*/
+    #through_line{
+        width: 90%;
+        margin: auto;
+        height: 3vw;
+    }
+    .strike_through_line{
+        background-color: #314350;
+        height: 0.44vw;
+        width: 90%;
+        position: absolute; 
+        margin: auto;
+        border: 0;
+        margin-left: 0vw;
+    }
+    .line_text_div{
+        width: 29vw;
+        height: 5vw;
+        background: #ffffff;
+        position: relative;
+        left: 7vw;
+        top: -5vw;
+    }
+    .strike_through_line_text{
+        font-size: 3vw;
+        color: #314350;
+        position: relative;
+        top: 0vw;
+        padding-left: 0.05vw;
+        margin-left: 2vw;
+    }
+    .strike_through_line_m{
+        height: 0;
+        display: none;
+    }
+    /*Products block ============================================*/
+    .products_block{
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+    .part_1_of_product_item{
+        display: inline-block;
+        width: 49%;
+        height: 35vw; 
+        padding: 0;
+        border: 0;
+    }
+    .part_2_of_product_item{
+        display: inline-block;
+        width: 49%;
+        height: 35vw;
+        padding: 0;
+        border: 0;
+        float: right;
+    }
+    #product_item_left{
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+        height: 34vw;
+        float: left;
+        text-align: center;
+    }
+    #product_item_right{
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+        height: 34vw;
+        float: right;
+        text-align: center;
+    }
+    #product_item_left img, #product_item_right img{
+        width: 95%;
+        margin-top:1vw;
+    }
+    #add_to_cart_button{ 
+        display: block; 
+        background: #3bc0c3;
+        color:#ffffff; 
+        font-size: 1.3vw;
+        font-weight: bold;    
+        width: 10vw;
+        margin: auto;
+        border-radius: 1vw;
+        text-align: center;      
+        text-decoration: none; 
+        margin-bottom: 0.5vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.6vw;
+    }
+    #add_to_cart_button_m{
+        display: none;
+        height: 0;
+    }
+    .product_name{
+        align-items: center;
+        margin-top: 2vw;
+        margin-bottom: 0.5vw;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+    .product_price{
+        margin-bottom: 1vw;
+        font-size: 2vw;
+    }
+    /*Footer =================================================*/
+    .footer_block{
+        vertical-align: top;
+        width: 90vw;
+        margin: auto;
+    }
+    #footer_col_1, #footer_col_2, #footer_col_3{
+        display: inline-block;
+        width: 27vw;
+        height: 100%;
+        text-align: left;
+        color: #ffffff;
+        vertical-align: top;
+    }
+    #footer_row_top{
+        margin-bottom: 0;
+        font-size: 1.7vw;
+        letter-spacing: 0.1vw;
+    }
+    #footer_text{
+        margin-top: 0.5vw;
+        line-height: 1.5;
+        font-size: 1.35vw;
+    }
+    #footer_col_1{
+        width: 22vw;
+    }
+    #footer_col_2{
+        width: 29.5vw;
+    }
+    #footer_col_3{
+        width: 37vw;
+    }
+    .subscribe_input_text{
+        height: 2.8vw; 
+        font-size: 1vw;
+        width: 22vw;
+        vertical-align: middle;
+        background-image: url(../css/images/envelope.png); 
+        background-size: 2vw;
+        background-repeat: no-repeat;  
+        background-position: 0.4vw;  
+        outline: none;  
+        -moz-border-radius: 0.5vw;
+        -webkit-border-radius: 0.5vw;   
+        border-radius: 0.5vw;  
+        padding-left: 3.1vw; 
+        border: 0;
+        margin-top: 1vw;
+    }
+    .subscribe_button{
+        background: #3bc0c3;
+        color:#ffffff; 
+        font-size: 1.3vw;
+        font-weight: bold; 
+        border-radius: 1vw;
+        text-align: center;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.6vw;
+        float: right;
+        margin-top: 1vw;
+    }
+
+    .burger_icon{
+        display: none;
+    }   
+    .load_div{
+        width: 20vw;
+        height: 1.5vw;
+        position: relative;
+        top: 1vw;
+    }
+    .fail_div{
+        width: 20vw;
+        height: 1.5vw;
+        position: relative;
+        top: -0.5vw;
+    }
+    .ok_div{
+        width: 20vw;
+        height: 1.5vw;
+        position: relative;
+        top: -2vw;
+    }
+    #loader_gif{
+        width: 1vw;
+        padding-right:  0.5vw;
+        position: relative;
+        top: 0.2vw;
+    }
+    #subscribing_message{
+        font-size: 0.9vw;
+    }
+    #failed_message{
+        font-size: 0.9vw;
+        color: #bf3030;
+        position: relative;
+    }
+    #excamation_icon{
+        width: 1.2vw;
+        position: relative;
+        top: 0.2vw;
+        padding-right: 0.5vw;
+    }
+    #success_message{
+        font-size: 0.9vw;
+        color: #20a84f;
+    }
+    #ok_icon{
+        width: 1.2vw;
+        position: relative;
+        top: 0.2vw;
+        padding-right: 0.5vw;
+    }
+}
