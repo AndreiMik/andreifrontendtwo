@@ -43,7 +43,7 @@ if ($array_data) {
         } else {
             $array_data['items'][$pos]['price_per_unit'] = $new_item['price'];
         }
-        $array_data['total_price'] = $array_data['total_price'] + $array_data['items'][$pos][price];
+        $array_data['total_price'] = $array_data['total_price'] + $array_data['items'][$pos]['price'];
         unset($array_data['items'][$pos]['discount_price']);
     }
     $array_data['total_items'] = count($array_data['items']);
@@ -62,7 +62,7 @@ if ($array_data) {
         $array_data['items'][0]['price_per_unit'] = $new_item['price'];
     }
     unset($array_data['items'][0]['discount_price']);
-    $array_data['total_price'] = $array_data['items'][0][price];
+    $array_data['total_price'] = $array_data['items'][0]['price'];
     $array_data = json_encode($array_data);
 }
 ?>
